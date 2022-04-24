@@ -1,0 +1,145 @@
+body
+{font-family: 'Roboto', 'Raleway',sans-serif;
+color: #212121;}
+:root {
+    --brand-color:#212121;
+    --background-color:#E5E5E5;
+    --accent-color:#2196F3;
+}
+.link {text-decoration: none;}
+.list {list-style: none;}
+
+.logo link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    }
+
+ .part-logo {color: var(--brand-color);}   
+
+.menu-link { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+    }
+
+.menu-link:hover,
+.menu-link:focus
+{color: var(--accent-color);}
+
+.address-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.address-link:hover,
+.address-link:focus
+{color: var(--accent-color);}
+
+.title {
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;
+background-color:#2F303A;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: var(--accent-color)
+}
+
+.title-advantages {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+color: var(--brand-color);
+list-style: none;
+text-transform:uppercase;}
+
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    list-style: none;}
+    
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+
+.member-data {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+color: var(--brand-color);}
+
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+    .address-linl link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        }
+
+    .street-link link{
+        font-size: 14px;
+        line-height: 1.71; 
+        letter-spacing: 0.03em;}
+
+    .street-link link:hover,
+    :focus {color: var(--accent-color);}
+
+    .specialization-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        color: var(--brand-color);}
+
+    .specialization-button:hover,
+    :focus {color: #FFFFFF;
+    background-color: var(--accent-color);}
+
+    .name-project {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--brand-color);
+        }
+
+    .type-project {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;}    
+
